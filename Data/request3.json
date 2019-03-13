@@ -30,7 +30,7 @@
 		"created": "2014-12-09T13:50:51.644000Z",
 		"edited": "2014-12-20T21:17:56.891000Z",
 		"url": "https://swapi.co/api/people/1/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "C-3PO",
@@ -58,7 +58,7 @@
 		"created": "2014-12-10T15:10:51.357000Z",
 		"edited": "2014-12-20T21:17:50.309000Z",
 		"url": "https://swapi.co/api/people/2/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "R2-D2",
@@ -87,7 +87,7 @@
 		"created": "2014-12-10T15:11:50.376000Z",
 		"edited": "2014-12-20T21:17:50.311000Z",
 		"url": "https://swapi.co/api/people/3/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Darth Vader",
@@ -115,7 +115,7 @@
 		"created": "2014-12-10T15:18:20.704000Z",
 		"edited": "2014-12-20T21:17:50.313000Z",
 		"url": "https://swapi.co/api/people/4/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Leia Organa",
@@ -169,7 +169,7 @@
 		"created": "2014-12-10T15:52:14.024000Z",
 		"edited": "2014-12-20T21:17:50.317000Z",
 		"url": "https://swapi.co/api/people/6/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Beru Whitesun lars",
@@ -194,7 +194,7 @@
 		"created": "2014-12-10T15:53:41.121000Z",
 		"edited": "2014-12-20T21:17:50.319000Z",
 		"url": "https://swapi.co/api/people/7/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "R5-D4",
@@ -217,7 +217,7 @@
 		"created": "2014-12-10T15:57:50.959000Z",
 		"edited": "2014-12-20T21:17:50.321000Z",
 		"url": "https://swapi.co/api/people/8/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Biggs Darklighter",
@@ -242,7 +242,7 @@
 		"created": "2014-12-10T15:59:50.509000Z",
 		"edited": "2014-12-20T21:17:50.323000Z",
 		"url": "https://swapi.co/api/people/9/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Obi-Wan Kenobi",
@@ -443,7 +443,7 @@
 		"created": "2014-12-10T17:11:31.638000Z",
 		"edited": "2014-12-20T21:17:50.338000Z",
 		"url": "https://swapi.co/api/people/16/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Wedge Antilles",
@@ -472,7 +472,7 @@
 		"created": "2014-12-12T11:08:06.469000Z",
 		"edited": "2014-12-20T21:17:50.341000Z",
 		"url": "https://swapi.co/api/people/18/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Jek Tono Porkins",
@@ -497,7 +497,7 @@
 		"created": "2014-12-12T11:16:56.569000Z",
 		"edited": "2014-12-20T21:17:50.343000Z",
 		"url": "https://swapi.co/api/people/19/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Yoda",
@@ -524,7 +524,7 @@
 		"created": "2014-12-15T12:26:01.042000Z",
 		"edited": "2014-12-20T21:17:50.345000Z",
 		"url": "https://swapi.co/api/people/20/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Palpatine",
@@ -551,7 +551,7 @@
 		"created": "2014-12-15T12:48:05.971000Z",
 		"edited": "2014-12-20T21:17:50.347000Z",
 		"url": "https://swapi.co/api/people/21/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Boba Fett",
@@ -601,7 +601,7 @@
 		"created": "2014-12-15T12:51:10.076000Z",
 		"edited": "2014-12-20T21:17:50.351000Z",
 		"url": "https://swapi.co/api/people/23/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Bossk",
@@ -624,7 +624,7 @@
 		"created": "2014-12-15T12:53:49.297000Z",
 		"edited": "2014-12-20T21:17:50.355000Z",
 		"url": "https://swapi.co/api/people/24/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Lando Calrissian",
@@ -650,7 +650,7 @@
 		"created": "2014-12-15T12:56:32.683000Z",
 		"edited": "2014-12-20T21:17:50.357000Z",
 		"url": "https://swapi.co/api/people/25/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Lobot",
@@ -673,7 +673,7 @@
 		"created": "2014-12-15T13:01:57.178000Z",
 		"edited": "2014-12-20T21:17:50.359000Z",
 		"url": "https://swapi.co/api/people/26/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Ackbar",
@@ -697,7 +697,7 @@
 		"created": "2014-12-18T11:07:50.584000Z",
 		"edited": "2014-12-20T21:17:50.362000Z",
 		"url": "https://swapi.co/api/people/27/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Mon Mothma",
@@ -768,7 +768,7 @@
 		"created": "2014-12-18T11:21:58.954000Z",
 		"edited": "2014-12-20T21:17:50.369000Z",
 		"url": "https://swapi.co/api/people/30/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Nien Nunb",
@@ -793,7 +793,7 @@
 		"created": "2014-12-18T11:26:18.541000Z",
 		"edited": "2014-12-20T21:17:50.371000Z",
 		"url": "https://swapi.co/api/people/31/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Qui-Gon Jinn",
@@ -1035,7 +1035,7 @@
 		"created": "2014-12-19T17:53:02.586000Z",
 		"edited": "2014-12-20T21:17:50.397000Z",
 		"url": "https://swapi.co/api/people/41/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Quarsh Panaka",
@@ -1107,7 +1107,7 @@
 		"created": "2014-12-19T18:00:41.929000Z",
 		"edited": "2014-12-20T21:17:50.403000Z",
 		"url": "https://swapi.co/api/people/44/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Bib Fortuna",
@@ -1201,7 +1201,7 @@
 		"created": "2014-12-20T09:57:31.858000Z",
 		"edited": "2014-12-20T21:17:50.414000Z",
 		"url": "https://swapi.co/api/people/48/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Gasgano",
@@ -1754,7 +1754,7 @@
 		"created": "2014-12-20T17:28:27.248000Z",
 		"edited": "2014-12-20T21:17:50.470000Z",
 		"url": "https://swapi.co/api/people/71/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Lama Su",
@@ -1942,7 +1942,7 @@
 		"created": "2014-12-20T19:43:53.348000Z",
 		"edited": "2014-12-20T21:17:50.488000Z",
 		"url": "https://swapi.co/api/people/79/",
-		"obese": false
+		"obese": true
 	},
 	{
 		"name": "Tarfful",
