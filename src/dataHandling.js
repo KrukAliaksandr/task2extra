@@ -4,10 +4,10 @@ const got = require('got');
 const uri = 'https://swapi.co/api/people';
 
 const createAndWriteFile = (path, contents) => {
-  if (!fs.existsSync(`./Data/${path}.json`)) {
+  if (!fs.existsSync(`./data/${path}.json`)) {
     console.log(`file ${path} does not exist. Created new file with same name`);
   }
-  fs.writeFileSync(`./Data/${path}.json`, JSON.stringify(contents, null, '\t'), 'utf8');
+  fs.writeFileSync(`./data/${path}.json`, JSON.stringify(contents, null, '\t'), 'utf8');
 };
 
 // got returns a promise itself
@@ -25,10 +25,8 @@ const getPeopleCount = async (uri) => {
 };
 
 const filterRecords = (searchFiltersObject, jsonArray, filterParameter = 'includeMatches') => {
-  console.log(jsonArray);
   const resultsArray = jsonArray.filter(charatcter => {
     let charatcterComparsionResult = true;
-    // can keys get props from protoype chain?/parent objects?
     for (let property in searchFiltersObject) {
       switch (property) {
         case 'name':
@@ -49,15 +47,12 @@ const filterRecords = (searchFiltersObject, jsonArray, filterParameter = 'includ
         case 'species':
         case 'vehicles':
         case 'starships':
-          console.log(`started`);
           if (!(property in charatcter)) {
             charatcterComparsionResult = false;
           } else {
             let areAnyMatchesFound = false;
             charatcter[property].forEach((itemInCharacterProperty) => {
               searchFiltersObject[property].forEach((itemInSearchObjProperty) => {
-                console.log(`${itemInSearchObjProperty}
-                  ${itemInCharacterProperty}`);
                 if (itemInCharacterProperty.includes(itemInSearchObjProperty)) areAnyMatchesFound = true;
               });
             });
@@ -90,8 +85,6 @@ const sortParams = (consoleArgs) => {
   for (let complexProperty of complexProperties) {
     if (complexProperty in consoleArgs) {
       searchParams[complexProperty] = consoleArgs[complexProperty].split(',');
-      console.log(consoleArgs[complexProperty]);
-      console.log(searchParams[complexProperty]);
     }
   }
   Object.keys(searchParams
@@ -100,7 +93,18 @@ const sortParams = (consoleArgs) => {
       delete searchParams[key];
     }
   });
-  console.log(`TESTOBJ${JSON.stringify(searchParams)}`);
+  if ('obese' in searchParams) {
+    switch (searchParams.obese) {
+      case 'true':
+      case 'yes':
+        searchParams.obese = true;
+        break;
+      case 'false':
+      case 'no':
+        searchParams.obese = false;
+        break;
+    }
+  }
   return searchParams;
 };
 
@@ -111,7 +115,6 @@ const fetchBodyOfRequest = async (requestResults) => {
   return newArray;
 };
 
-// add object,for which the property will be added
 const addObeseProperty = async (requestResults) => {
   requestResults.forEach((singleRequestResult) => {
     singleRequestResult = addObesePropertyForObj(singleRequestResult);
@@ -124,7 +127,6 @@ const addObesePropertyForObj = async (characterObj) => {
     characterObj.obese = 'unknown';
   } else {
     characterObj.obese = (characterObj.mass.replace(',', '') / Math.pow((characterObj.height / 100), 2) >= 25);
-    console.log((characterObj.mass / Math.pow((characterObj.height / 100), 2)));
   }
   return characterObj;
 };

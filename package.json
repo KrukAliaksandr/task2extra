@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "Request":"npm src/index Request --",
     "requestName": "node src/index Request --name=Skywalker",
-    "requestBirth": "node src/index Request --birth_year=Skywalker"
+    "requestBirth": "node src/index Request --birth_year=Skywalker",
+    "requestComplex": "node src/index Request --films=\"https://swapi.co/api/films/5\" --obese=false"
   },
   "repository": {
     "type": "git",

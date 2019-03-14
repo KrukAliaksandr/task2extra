@@ -1,6 +1,6 @@
 
 const todo = require('yargs');
-const pathToFile = `../Data/request`;
+const filename = `request`;
 const { processTheResults, getPeopleCount, createAndWriteFile } = require('./dataHandling');
 
 const uriForPageCount = `https://swapi.co/api/people`;
@@ -102,7 +102,7 @@ todo.command('Request', 'https://swapi.co/api/people/ ', function (yargs) {
 async function (argv) {
   const peopleCount = await getPeopleCount(uriForPageCount);
   const results = await processTheResults(peopleCount, argv);
-  createAndWriteFile(pathToFile, results);
+  createAndWriteFile(filename, results);
 }).help()
   .demandCommand(1, 'You need at least one command before moving on')
   .argv;
